@@ -9,7 +9,6 @@ const containerDashboard = document.querySelector('.container-dashboard');
 
 let newArrayLogin = JSON.parse(localStorage.getItem('login'));
 function login() {
-    // localStorage.setItem('isAuth', true);
     console.log(newArrayLogin);
     if (newArrayLogin.length === 0) {
         alert('Nenhum login registrado!')
