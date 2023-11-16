@@ -22,7 +22,7 @@ ion-icon {
 input {
     border: solid transparent 2px;
     color: #000e20;
-    background: #d9d9d9;
+    background: #b8b4b4;
     border-radius: 6px;
     padding: .8rem 2.2rem;
 }
@@ -37,11 +37,11 @@ button {
     outline: #cbcbcb;
     border-radius: 6px;
     padding: 1rem;
-    background: #009dff;
+    background: #00b185;
 }
 button:hover {
     background: transparent;
-    outline: solid 2px #009dff;
+    outline: solid 2px #977b83;
     border-bottom: none;
     cursor: pointer;
 }
@@ -56,19 +56,17 @@ label ion-icon {
     font-size: 24px;
     position: absolute;
     left: 6px;
-    color: #011632;
+    color: #000000;
 }
 
-/* Login Page */
 .container-login {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-direction: column; */
     width: 100vw;
     height: 100vh;
     gap: 2rem;
-    background: #fff;
+    background: #000e20;
 }
 
 .card-login, .card-register {
@@ -79,15 +77,13 @@ label ion-icon {
     padding: 1rem 2rem;
     gap: .6rem;
     border-radius: 12px;
-    background: #e9e9e9;
+    background: #ffffff;
 }
 
 .card-register {
     display: none;
 }
 
-
-/* Dashboard */ 
 .container-dashboard {
     display: none;
     align-items: flex-start;
@@ -107,7 +103,7 @@ label ion-icon {
     height: 100%;
     padding: 1rem;
     border-radius: 12px;
-    background: #e9e9e9;
+    background: #b3b3b3;
 }
 
 .lateral-menu button {
