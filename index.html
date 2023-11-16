@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-login">
+        <div class="card-login">
+            <h1>LOGIN</h1>
+            <p>Entre com seu login para acessar</p>
+            <label>
+                <ion-icon name="person"></ion-icon>
+                <input type="text" placeholder="Login" id="input-login">
+            </label>
+            <label>
+                <ion-icon name="lock-closed"></ion-icon>
+                <input type="password" placeholder="Senha" id="input-password">
+            </label>
+            <button onclick="login()">Entrar</button>
+            <p>Não possui um <a onclick="switchLogin()">login?</a></p> 
+        </div>
+        <div class="card-register">
+            <h1>CADASTRO</h1>
+            <p>Registre um login para acessar o Dashboard</p>
+            <label>
+                <ion-icon name="person"></ion-icon>
+                <input type="text" placeholder="Insira um Login" id="input-register">
+            </label>
+            <label>
+                <ion-icon name="lock-closed"></ion-icon>
+                <input type="text" placeholder="Insira uma Senha" id="input-pass">
+            </label>
+            <button onclick="register()">Cadastrar Login</button>
+            <p>Já possui um <a onclick="switchLogin()">login?</a></p> 
+        </div>
+    </div>
+    <div class="container-dashboard">
+        <aside class="lateral-menu">
+            <h1>Dashboard</h1>
+            <button><ion-icon name="home"></ion-icon>Dashboard</button>
+            <button><ion-icon name="cog"></ion-icon>Settings</button>
+            <button><ion-icon name="bar-chart"></ion-icon>Stats</button>
+            <button onclick="exit()"><ion-icon name="log-out"></ion-icon>Exit</button>
+        </aside>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
